@@ -1,0 +1,13 @@
+Denne oppgaven handler om å sette sammen ASCII-art fra små biter. 
+Lever kildekodefil som kompilerer med "-Wall -Werror -std=c99". Dokumentasjon kan enten gjøres i form av kommentarer, eller som en egen fil for dokumentasjon.
+
+På: http://home.nith.no/~raakje/ ligger det filer med navn part_x-y, der: x går fra 00 til 11 og y går fra 00 til 05.
+Last ned disse. Finner du en stilig måte å laste dem ned på, legg med kommandoen også, kan gi bonuspoeng.
+Disse er 10x10-tegn biter av et ASCII-bilde. Bildet er splittet i 2 dimensjoner. Du kan se på innholdet av hver enkelt bit på fornuftig måte med: "od part_x-y -w10 -t c".
+Orginalbildet har linjer av ulik lengde. For å gjøre bitene like store, er det lagt til '\0'-tegn etter hver linje for å fylle opp. Det er ikke kritisk, men en fordel om de ikke kommer med i sluttproduktet.
+Lag et C-program som setter bildet sammen og lagrer det nye bildet i en fil.
+Jeg kommer til å prøve det på andre bilder! Noen også av annen dimensjon, så det er en fordel å håndtere dette.
+ 
+PS, til de som har startet: Jeg fjernet '\n' som jeg tidligere la til på slutten av hver linje. Laget bare forvirring.
+PPS: Innlevering utsatt til tirsdag, for å unngå kollisjon med arkitekturfaget.
+PPPS: Jeg beklager, jeg hadde byttet om X og Y i den orginale oppgaven. Det er rettet, men jeg vil godkjenne innleveringer som funer på den gamle måten.
